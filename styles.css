@@ -337,6 +337,11 @@ a {
     position: relative;
     right: 100px;
   }
+  .logos {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 70px;
+  }
 }
 
 @media only screen and (min-width: 1500px) {
